@@ -1,5 +1,5 @@
 """
-	In the try block change the divisor to a non-zero integer check which block
+	Before the try block change the divisor to a non-zero integer check which block
 	of executes(except or else or both).
 
 	Repeat the same process by changing the divisor to zero.
