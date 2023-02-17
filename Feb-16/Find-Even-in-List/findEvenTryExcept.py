@@ -7,7 +7,7 @@ def find_even_2(l):
     i = 0
     try:
         while l[i] % 2 != 0:
-            i += 1
+            i += 1  # Continue to check the next element in the list if l[i] is odd
     except IndexError:
         raise ValueError("No even number found")
     else:
