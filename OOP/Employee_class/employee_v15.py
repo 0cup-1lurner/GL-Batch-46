@@ -28,8 +28,6 @@ the salary of Rs.{self.salary}"
         return self._salary
     # the property decorator will turn the regular salary method into property
     # read-only
-    def get_salary(self):
-        return self._salary
     
     def set_salary(self, salary):
         if salary < 60_000:
