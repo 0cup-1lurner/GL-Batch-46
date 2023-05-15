@@ -40,3 +40,21 @@ employee1 = Employee("Virat", 34, "Data Scientist", 1_000_000)
 employee1.set_salary(60000)
 print(employee1.get_salary())
 
+"""
+`self._salary` is a naming convention used in Python to indicate 
+that the attribute `salary` is intended to be treated as a private variable.
+ The leading underscore character `_` indicates that the attribute is intended
+to be accessed only from within the class.
+
+In the context of the `Employee` class, `self._salary` would be a private instance variable that stores the salary of the employee. By convention, it is named with the leading underscore to indicate that it is intended to be accessed only from within the class and 
+
+should not be modified directly by external code.
+
+It is worth noting that this naming convention does not actually enforce
+ any access restrictions on the attribute. It is still possible for external
+code to access and modify the `_salary` attribute if desired.
+However, using the naming convention provides a clear indication of the 
+intended usage of the attribute and can help to prevent accidental 
+modification of the attribute by external code.
+"""
+
