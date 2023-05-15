@@ -36,6 +36,3 @@ employee1 = Employee("Virat", 34, "Data Scientist", 1_000_000)
 # 
 #employee1.set_salary(60000)
 #print(employee1.get_salary())
-
-# validation is done in application code. OOP: The logic has to be inside of the class
-# employee1.salary = 10_000 can be accessed directly
